@@ -26,21 +26,21 @@ the same level as the four directories.
 
 This is a representation of the directory structure
 
-submission_reminder_{user_inputted_name}/
-|
-|----app/
-|      |_reminder.sh
-|
-|----config/
-|       |_config.env
-|
-|----assets/
-|         |_submissions.txt
-|
-|----modules/
-|         |_function.sh
-|
-|----startup.sh
+#submission_reminder_{user_inputted_name}/
+#|
+#|----app/
+#|      |_reminder.sh
+#|
+#|----config/
+#|       |_config.env
+#|
+#----assets/
+#|         |_submissions.txt
+#|
+#|----modules/
+#|         |_function.sh
+#|
+#|----startup.sh
 
 
 
