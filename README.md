@@ -23,25 +23,24 @@ The environent that is created is basically a directory named "submission_remind
 The environment created contains four directories and five files.Four out of the five files will each
 be contained in one of the four directories, while the fifth file will be in the directory of the environment created, on
 the same level as the four directories.
-
 This is a representation of the directory structure
-
-#submission_reminder_{user_inputted_name}/
-#|
-#|----app/
-#|      |_reminder.sh
-#|
-#|----config/
-#|       |_config.env
-#|
-#----assets/
-#|         |_submissions.txt
-#|
-#|----modules/
-#|         |_function.sh
-#|
-#|----startup.sh
-
+```
+submission_reminder_{user_inputted_name}/
+|
+|----app/
+|      |_reminder.sh
+|
+|----config/
+|       |_config.env
+|
+|----assets/
+|         |_submissions.txt
+|
+|----modules/
+|         |_function.sh
+|
+|----startup.sh
+```
 
 
 The reminder.sh script is the script that is responsible for the final output of the individuals who have not
@@ -128,4 +127,3 @@ copilot_shell_script again.
 assignments, you will get an error message stating "The assignment you have entered is invalid." A list of valid assignments
 will also be displayed.
 To resolve this error, enter a valid assignment name. Note that, the input is case sensitive.
-
